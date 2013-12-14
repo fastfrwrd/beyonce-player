@@ -1,21 +1,13 @@
-angular-oneid-prototype
-=======================
+beyonce-player
+==============
 
-Prototyping how problems OneID faces in the JS world might work with Angular.
-- Promises using $q ([http://docs.angularjs.org/api/ng.$q](http://docs.angularjs.org/api/ng.$q))
-- A "steps" directive which can extend a complex controller
-- Router logic which can be manipulated by an iframe and looks good in transition ([http://docs.angularjs.org/api/ngRoute.$route](http://docs.angularjs.org/api/ngRoute.$route))
-- AngularJS + RequireJS ([http://www.startersquad.com/blog/angularjs-requirejs/](http://www.startersquad.com/blog/angularjs-requirejs/))
+Play all of the videos from Beyoncé's new album "Beyoncé" that you bought on iTunes from Google Chrome.
 
+##Setup
+1. [Buy "BEYONCÉ" on iTunes](https://itunes.apple.com/us/album/beyonce/id780330041)
+2. [Make sure you have Google Chrome](https://www.google.com/intl/en/chrome/browser/)
+3. Download the zip of beyonce-player (or `git clone` if you fancy)
+4. Double-click `run.command`
+5. Use your Chromecast to watch BEYONCÉ... and bow down, bitches.
 
-### Needed to run
-
-- Node.js
-- Grunt (`npm install -g grunt-cli`)
-
-
-### Start it up
-
-    npm install
-    grunt
-    node app.js
+For those who care, it's gonna make a symlink to the files in your iTunes and use HTML5 `<video>` to play the thing. arrow buttons control volume and which video you're one, and space bar works for play-pause.
