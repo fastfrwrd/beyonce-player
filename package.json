@@ -1,0 +1,9 @@
+{
+  "name": "beyonce",
+  "version": "0.1.0",
+  "dependencies": {
+    "express": "3.3.4",
+    "ejs": "*"
+  }
+}
+
